@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+*/ Header and Nav */ 
+
+.logo img {
+width: 100px;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #3a3a3a;
+    display: inline-block;
+}
+
+li a:hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition: all .5s;
+}
+
+li a:hover {
+    width: 100%;
+}
+.photo.psd {
+    max-width: 670px;
+    height: auto;
+}
+.item {
+    width: 220px;
+    height: 320px;
+    background-color: grey;
+    color: pink;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: none;
+    background-color: white;
+    /* Always horzontal ;*/
+    justify-content: space-evenly;
+    height: 500px;
+    align-items:start;
+}
+
+/*Section*/
+
+.photo.psd img {
+    max-width: 670px;
+    height: auto;
+}
+
+.content-left {
+    width: 30%;
+}
+
+section h1 {
+    font-size: 20px;
+    color: pink;
+    text-transform:none;
+    letter-spacing: 2px;
+}
+
+section h2{
+    font-size: 25px;
+    color: pink;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 8px;
+}
+
+section p {
+    font-size: 15px;
+    font-weight: 400;
+    color: pink
+    line-height: 19px;
+    margin: 25px 0;
+}
+
+.cta {
+    padding: 15px 30px;
+    background: grey;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight:700;
+    border-radius: 50px;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
